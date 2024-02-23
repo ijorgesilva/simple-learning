@@ -5,37 +5,47 @@ import musicPng from "@/public/cat-music-production.png";
 import photographyPng from "@/public/cat-photography.png";
 
 export const CATEGORIES_ITEMS = {
-  bigData: {
+  big_data: {
     src: bigDataPng,
     alt: "Big Data Logo",
-    category: "Big Data",
+    category: "big_data",
+    title: "Big Data",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
   },
   crypto: {
     src: cryptoPng,
     alt: "Crypto Logo",
-    category: "Crypto",
+    category: "crypto",
+    title: "Crypto",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
   },
   marketing: {
     src: marketingPng,
     alt: "Marketing Logo",
-    category: "Marketing",
+    category: "marketing",
+    title: "Marketing",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
   },
-  music: {
+  music_production: {
     src: musicPng,
     alt: "Music Logo",
-    category: "Music Production",
+    category: "music_production",
+    title: "Music Production",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
   },
   photography: {
     src: photographyPng,
     alt: "Photography Logo",
-    category: "Photography",
+    category: "photography",
+    title: "Photography",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
   },
 };
 
 export const NAV_ITEMS = [
-  CATEGORIES_ITEMS.bigData,
+  CATEGORIES_ITEMS.big_data,
   CATEGORIES_ITEMS.crypto,
   CATEGORIES_ITEMS.marketing,
-  CATEGORIES_ITEMS.music,
+  CATEGORIES_ITEMS.music_production,
   CATEGORIES_ITEMS.photography,
 ];

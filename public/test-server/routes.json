@@ -1,0 +1,6 @@
+{
+  "/courses": "/courses",
+  "/courses?category=:category": "/:category",
+  "/courses?qInTitle=:qInTitle": "/:qInTitle",
+  "/courses?id=:course_id": "/:course_id"
+}

@@ -1,0 +1,379 @@
+{
+  "courses": {
+    "status": "success",
+    "totalResults": 204,
+    "results": [
+      {
+        "course_id": "7f56a4128e13473bbf64362bb66c6a92",
+        "title": "Big Data Fundamentals",
+        "link": "https://www.example.com/courses/big-data-fundamentals",
+        "keywords": ["Big Data", "Data Analysis", "Hadoop", "Spark"],
+        "creator": ["Michael Johnson"],
+        "video_url": null,
+        "description": "Learn the basics of big data technologies and data analysis.",
+        "content": "Big data refers to the large volume of data that cannot be processed effectively with traditional data processing applications. It encompasses data analysis techniques and technologies...",
+        "pubDate": "2024-02-17 10:00:00",
+        "image_url": "https://source.unsplash.com/800x600/?data",
+        "source_id": "example",
+        "source_priority": 850,
+        "country": ["united states of america"],
+        "category": ["big_data"],
+        "language": "english"
+      },
+      {
+        "course_id": "a3147ef961c7ad4c0d5b623ee7584972",
+        "title": "Blockchain Fundamentals",
+        "link": "https://www.example.com/courses/blockchain-fundamentals",
+        "keywords": [
+          "Blockchain",
+          "Cryptocurrency",
+          "Decentralized Finance",
+          "Smart Contracts"
+        ],
+        "creator": ["Andrew Smith"],
+        "video_url": null,
+        "description": "Learn the core concepts of blockchain technology and its applications.",
+        "content": "Blockchain is a distributed ledger technology that enables secure and transparent peer-to-peer transactions without the need for intermediaries. It is the underlying technology...",
+        "pubDate": "2024-02-15 10:45:00",
+        "image_url": "https://source.unsplash.com/800x600/?blockchain",
+        "source_id": "example",
+        "source_priority": 900,
+        "country": ["united states of america"],
+        "category": ["crypto"],
+        "language": "english"
+      },
+      {
+        "course_id": "fb35a9ed65c1d69dbb01e80136a14787",
+        "title": "Digital Marketing Fundamentals",
+        "link": "https://www.example.com/courses/digital-marketing-fundamentals",
+        "keywords": [
+          "Digital Marketing",
+          "Marketing Strategy",
+          "Online Advertising",
+          "Social Media Marketing"
+        ],
+        "creator": ["Sarah Johnson"],
+        "video_url": "https://www.example.com/videos/digital-marketing-fundamentals.mp4",
+        "description": "Learn the foundational principles of digital marketing and online advertising.",
+        "content": "Digital marketing encompasses various online strategies and tactics aimed at promoting products, services, or brands through digital channels...",
+        "pubDate": "2024-02-13 10:30:00",
+        "image_url": "https://source.unsplash.com/800x600/?digital-marketing",
+        "source_id": "example",
+        "source_priority": 900,
+        "country": ["united states of america"],
+        "category": ["marketing"],
+        "language": "english"
+      },
+      {
+        "course_id": "4e8015014e76ed26a14ee72b8ea41e9",
+        "title": "Introduction to Music Production",
+        "link": "https://www.example.com/courses/introduction-to-music-production",
+        "keywords": [
+          "Music Production",
+          "Audio Engineering",
+          "DAW",
+          "Music Composition"
+        ],
+        "creator": ["David Miller"],
+        "video_url": "https://www.example.com/videos/introduction-to-music-production.mp4",
+        "description": "Learn the basics of music production and digital audio workstation (DAW) software.",
+        "content": "Music production involves recording, editing, and arranging audio tracks to create music. It often involves the use of digital audio workstation (DAW) software...",
+        "pubDate": "2024-02-11 10:00:00",
+        "image_url": "https://source.unsplash.com/800x600/?music-production",
+        "source_id": "example",
+        "source_priority": 800,
+        "country": ["united states of america"],
+        "category": ["music_production"],
+        "language": "english"
+      },
+      {
+        "course_id": "27a1e5b6b72d9e714f28a9e04f09a10b",
+        "title": "Python for Data Science",
+        "link": "https://www.example.com/courses/python-for-data-science",
+        "keywords": [
+          "Python",
+          "Data Science",
+          "Machine Learning",
+          "Data Analysis"
+        ],
+        "creator": ["Jessica Brown"],
+        "video_url": null,
+        "description": "Learn Python programming for data science and machine learning applications.",
+        "content": "Python is a popular programming language for data science and machine learning tasks. It provides libraries and tools for data analysis, visualization, and model building...",
+        "pubDate": "2024-02-20 11:30:00",
+        "image_url": "https://source.unsplash.com/800x600/?python",
+        "source_id": "example",
+        "source_priority": 850,
+        "country": ["united states of america"],
+        "category": ["big_data"],
+        "language": "english"
+      },
+      {
+        "course_id": "b8d60bcf3c7587ef2d0ee16b2e1a8b46",
+        "title": "Ethereum Smart Contract Development",
+        "link": "https://www.example.com/courses/ethereum-smart-contract-development",
+        "keywords": [
+          "Ethereum",
+          "Smart Contracts",
+          "Blockchain Development",
+          "Solidity"
+        ],
+        "creator": ["Mark Johnson"],
+        "video_url": null,
+        "description": "Learn how to develop smart contracts on the Ethereum blockchain using Solidity.",
+        "content": "Ethereum is a decentralized platform that enables smart contract functionality. Solidity is the programming language used to write smart contracts on the Ethereum blockchain...",
+        "pubDate": "2024-02-19 10:00:00",
+        "image_url": "https://source.unsplash.com/800x600/?ethereum",
+        "source_id": "example",
+        "source_priority": 900,
+        "country": ["united states of america"],
+        "category": ["crypto"],
+        "language": "english"
+      },
+      {
+        "course_id": "ecb3747c21dbcf84c2d9ee6410f8b3a9",
+        "title": "Content Marketing Strategy",
+        "link": "https://www.example.com/courses/content-marketing-strategy",
+        "keywords": [
+          "Content Marketing",
+          "Content Strategy",
+          "SEO",
+          "Blog Writing"
+        ],
+        "creator": ["Emily Johnson"],
+        "video_url": null,
+        "description": "Explore effective content marketing strategies for driving traffic and engagement.",
+        "content": "Content marketing involves creating and distributing valuable content to attract and engage a target audience. A well-defined content marketing strategy can drive traffic...",
+        "pubDate": "2024-02-18 09:30:00",
+        "image_url": "https://source.unsplash.com/800x600/?content-marketing",
+        "source_id": "example",
+        "source_priority": 950,
+        "country": ["united states of america"],
+        "category": ["marketing"],
+        "language": "english"
+      },
+      {
+        "course_id": "23bc1c0f8b7d674f2a9ee6459ecb3747",
+        "title": "Electronic Music Production",
+        "link": "https://www.example.com/courses/electronic-music-production",
+        "keywords": [
+          "Electronic Music",
+          "Music Production",
+          "Synthesis",
+          "Ableton Live"
+        ],
+        "creator": ["Sophia Williams"],
+        "video_url": null,
+        "description": "Learn to produce electronic music using synthesis and digital audio workstation (DAW) software.",
+        "content": "Electronic music production involves creating music using electronic instruments, synthesizers, and digital audio workstation (DAW) software. It combines elements...",
+        "pubDate": "2024-02-21 10:00:00",
+        "image_url": "https://source.unsplash.com/800x600/?electronic-music",
+        "source_id": "example",
+        "source_priority": 800,
+        "country": ["united states of america"],
+        "category": ["music_production"],
+        "language": "english"
+      }
+    ],
+    "nextPage": "1702637148311290763"
+  },
+  "big_data": {
+    "status": "success",
+    "totalResults": 55,
+    "results": [
+      {
+        "course_id": "7f56a4128e13473bbf64362bb66c6a92",
+        "title": "Big Data Fundamentals",
+        "link": "https://www.example.com/courses/big-data-fundamentals",
+        "keywords": ["Big Data", "Data Analysis", "Hadoop", "Spark"],
+        "creator": ["Michael Johnson"],
+        "video_url": null,
+        "description": "Learn the basics of big data technologies and data analysis.",
+        "content": "Big data refers to the large volume of data that cannot be processed effectively with traditional data processing applications. It encompasses data analysis techniques and technologies...",
+        "pubDate": "2024-02-17 10:00:00",
+        "image_url": "https://source.unsplash.com/800x600/?data",
+        "source_id": "example",
+        "source_priority": 850,
+        "country": ["united states of america"],
+        "category": ["big_data"],
+        "language": "english"
+      },
+      {
+        "course_id": "a2b5cfa1d50afca1db0d04d042ef7984",
+        "title": "Apache Spark for Data Engineering",
+        "link": "https://www.example.com/courses/apache-spark-for-data-engineering",
+        "keywords": [
+          "Apache Spark",
+          "Data Engineering",
+          "Big Data Processing",
+          "Scala"
+        ],
+        "creator": ["Jessica Lee"],
+        "video_url": null,
+        "description": "Explore Apache Spark for large-scale data processing and data engineering tasks.",
+        "content": "Apache Spark is an open-source distributed computing system designed for big data processing and analytics. It provides an easy-to-use interface for processing large datasets...",
+        "pubDate": "2024-02-16 09:30:00",
+        "image_url": "https://source.unsplash.com/800x600/?apache-spark",
+        "source_id": "example",
+        "source_priority": 950,
+        "country": ["united states of america"],
+        "category": ["big_data"],
+        "language": "english"
+      }
+    ],
+    "nextPage": "1702637148311290763"
+  },
+  "crypto": {
+    "status": "success",
+    "totalResults": 45,
+    "results": [
+      {
+        "course_id": "a3147ef961c7ad4c0d5b623ee7584972",
+        "title": "Blockchain Fundamentals",
+        "link": "https://www.example.com/courses/blockchain-fundamentals",
+        "keywords": [
+          "Blockchain",
+          "Cryptocurrency",
+          "Decentralized Finance",
+          "Smart Contracts"
+        ],
+        "creator": ["Andrew Smith"],
+        "video_url": null,
+        "description": "Learn the core concepts of blockchain technology and its applications.",
+        "content": "Blockchain is a distributed ledger technology that enables secure and transparent peer-to-peer transactions without the need for intermediaries. It is the underlying technology...",
+        "pubDate": "2024-02-15 10:45:00",
+        "image_url": "https://source.unsplash.com/800x600/?blockchain",
+        "source_id": "example",
+        "source_priority": 900,
+        "country": ["united states of america"],
+        "category": ["crypto"],
+        "language": "english"
+      },
+      {
+        "course_id": "27f9010868292c5ff914dc9784d11af8",
+        "title": "Cryptocurrency Trading Strategies",
+        "link": "https://www.example.com/courses/cryptocurrency-trading-strategies",
+        "keywords": [
+          "Cryptocurrency Trading",
+          "Bitcoin",
+          "Ethereum",
+          "Altcoins"
+        ],
+        "creator": ["Emily Brown"],
+        "video_url": null,
+        "description": "Explore effective strategies for trading cryptocurrencies in the financial markets.",
+        "content": "Cryptocurrency trading involves buying, selling, and exchanging digital currencies such as Bitcoin, Ethereum, and other altcoins in various financial markets...",
+        "pubDate": "2024-02-14 11:30:00",
+        "image_url": "https://source.unsplash.com/800x600/?cryptocurrency",
+        "source_id": "example",
+        "source_priority": 850,
+        "country": ["united states of america"],
+        "category": ["crypto"],
+        "language": "english"
+      }
+    ],
+    "nextPage": "1702637148311290763"
+  },
+  "marketing": {
+    "status": "success",
+    "totalResults": 75,
+    "results": [
+      {
+        "course_id": "fb35a9ed65c1d69dbb01e80136a14787",
+        "title": "Digital Marketing Fundamentals",
+        "link": "https://www.example.com/courses/digital-marketing-fundamentals",
+        "keywords": [
+          "Digital Marketing",
+          "Marketing Strategy",
+          "Online Advertising",
+          "Social Media Marketing"
+        ],
+        "creator": ["Sarah Johnson"],
+        "video_url": "https://www.example.com/videos/digital-marketing-fundamentals.mp4",
+        "description": "Learn the foundational principles of digital marketing and online advertising.",
+        "content": "Digital marketing encompasses various online strategies and tactics aimed at promoting products, services, or brands through digital channels...",
+        "pubDate": "2024-02-13 10:30:00",
+        "image_url": "https://source.unsplash.com/800x600/?digital-marketing",
+        "source_id": "example",
+        "source_priority": 900,
+        "country": ["united states of america"],
+        "category": ["marketing"],
+        "language": "english"
+      },
+      {
+        "course_id": "c1657c2362bb66c6a927f9010868292c",
+        "title": "Social Media Marketing Strategies",
+        "link": "https://www.example.com/courses/social-media-marketing-strategies",
+        "keywords": [
+          "Social Media Marketing",
+          "Instagram",
+          "Facebook",
+          "Twitter"
+        ],
+        "creator": ["Alexandra Williams"],
+        "video_url": "https://www.example.com/videos/social-media-marketing-strategies.mp4",
+        "description": "Explore effective strategies for marketing on popular social media platforms.",
+        "content": "Social media marketing involves creating and sharing content on social media platforms to achieve marketing and branding goals...",
+        "pubDate": "2024-02-12 09:45:00",
+        "image_url": "https://source.unsplash.com/800x600/?social-media-marketing",
+        "source_id": "example",
+        "source_priority": 950,
+        "country": ["united states of america"],
+        "category": ["marketing"],
+        "language": "english"
+      }
+    ],
+    "nextPage": "1702637148311290763"
+  },
+  "music_production": {
+    "status": "success",
+    "totalResults": 40,
+    "results": [
+      {
+        "course_id": "4e8015014e76ed26a14ee72b8ea41e9",
+        "title": "Introduction to Music Production",
+        "link": "https://www.example.com/courses/introduction-to-music-production",
+        "keywords": [
+          "Music Production",
+          "Audio Engineering",
+          "DAW",
+          "Music Composition"
+        ],
+        "creator": ["David Miller"],
+        "video_url": "https://www.example.com/videos/introduction-to-music-production.mp4",
+        "description": "Learn the basics of music production and digital audio workstation (DAW) software.",
+        "content": "Music production involves recording, editing, and arranging audio tracks to create music. It often involves the use of digital audio workstation (DAW) software...",
+        "pubDate": "2024-02-11 10:00:00",
+        "image_url": "https://source.unsplash.com/800x600/?music-production",
+        "source_id": "example",
+        "source_priority": 800,
+        "country": ["united states of america"],
+        "category": ["music_production"],
+        "language": "english"
+      },
+      {
+        "course_id": "bc3de9e79f87f56a4128e13473bbf64",
+        "title": "Advanced Music Production Techniques",
+        "link": "https://www.example.com/courses/advanced-music-production-techniques",
+        "keywords": [
+          "Music Production",
+          "Mixing",
+          "Mastering",
+          "Sound Design"
+        ],
+        "creator": ["Emily Johnson"],
+        "video_url": "https://www.example.com/videos/advanced-music-production-techniques.mp4",
+        "description": "Explore advanced techniques for music production, including mixing, mastering, and sound design.",
+        "content": "Advanced music production involves refining and enhancing audio tracks through techniques such as mixing, mastering, and sound design...",
+        "pubDate": "2024-02-10 09:30:00",
+        "image_url": "https://source.unsplash.com/800x600/?music-production-advanced",
+        "source_id": "example",
+        "source_priority": 850,
+        "country": ["united states of america"],
+        "category": ["music_production"],
+        "language": "english"
+      }
+    ],
+    "nextPage": "1702637148311290763"
+  }
+}

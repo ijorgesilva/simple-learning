@@ -9,9 +9,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
+      <body className="flex p-8">
         <Nav />
-        <main>{children}</main>
+        <main className="mt-8 px-8">{children}</main>
       </body>
     </html>
   );
