@@ -21,7 +21,7 @@ export interface Course {
   source_id: string
   source_priority: number
   country: string[]
-  category: Partial<CourseCategory[]>
+  category: CourseCategory[]
   language: string
 }
 

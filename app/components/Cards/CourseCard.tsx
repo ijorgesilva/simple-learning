@@ -8,7 +8,7 @@ import noImagePng from "@/public/no-image.png";
 export default async function CourseCard(p : { course : Course }){
 
   return (
-    <Link href={'/'} 
+    <Link href={`/courses/course/${p.course.course_id}`} 
       title={`Read more`} 
       className="space-y-4 block w-60 hover:bg-slate-50 transition transform hover:scale-105 border-2 border-gray-100 pt-4 bg-4 px-6 rounded-xl shadow-sm"
     >

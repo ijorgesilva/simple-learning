@@ -4,7 +4,17 @@ import { ImageWithFallback } from "@/app/components/ImageWithFallback/ImageWithF
 import noImagePng from "@/public/no-image.png";
 import { CourseCategory } from "@/app/types/course-type";
 import { CATEGORIES_ITEMS } from "@/app/components/Nav/constants";
+import { NAV_ITEMS } from "@/app/components/Nav/constants";
 
+// export const revalidate = 1000;
+// export function generateStaticParams(){
+//   return NAV_ITEMS.map( (navItem) => {
+//     return {
+//       category: navItem.category
+//     }
+//   })
+// }
+// export const dynamic='force-dynamic'
 export default async function CategoryDetailPage(
     p: { 
       params: { category: CourseCategory },

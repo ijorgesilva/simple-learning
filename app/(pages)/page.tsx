@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { CoursesApi } from "@/app/api/courses-api";
-import CourseList from "../components/CourseList/CourseList";
+import CourseList from "@/app/components/CourseList/CourseList";
 import latestImagePng from '@/public/latest.png'
 export const dynamic = 'force-dynamic';
 

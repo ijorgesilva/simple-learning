@@ -1,11 +1,18 @@
-import { CategoryItem } from "@/app/types/course-type";
+import { CategoryItem, CourseCategory } from "@/app/types/course-type";
 import bigDataPng from "@/public/cat-big-data.png";
 import cryptoPng from "@/public/cat-crypto.png";
 import marketingPng from "@/public/cat-marketing.png";
 import musicPng from "@/public/cat-music-production.png";
 import photographyPng from "@/public/cat-photography.png";
 
-export const CATEGORIES_ITEMS: CategoryItem = {
+export const CATEGORIES_ITEMS: CategoryItem  = {
+  courses: {
+    src: bigDataPng,
+    alt: "Big Data Logo",
+    category: "big_data",
+    title: "Big Data",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  },
   big_data: {
     src: bigDataPng,
     alt: "Big Data Logo",

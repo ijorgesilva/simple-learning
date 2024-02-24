@@ -23,4 +23,13 @@ export class CoursesApi {
     return response.json();
   }
 
+  // Fetch by ID
+  static async fetchById(id: number): Promise<Course> {
+    const courseResponse = await this.fetchCoursesByIdResponse(id);
+    return courseResponse.results[0];
+  }
+  private static async fetchCoursesByIdResponse(id: number): Promise<CourseResponse> {
+    const response = await fetch(`${this.BASE_URL}/courses?course_id=${id}`);
+    return response.json();
+  }
 }
