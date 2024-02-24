@@ -16,9 +16,11 @@ export default async function CourseCard(p : { course : Course }){
         <div className="flex items-center gap-2">
           <div className="flex w-10 h-10 justify-center items-center border border-slate-300 rounded-full">
             <Image
+              height={35} 
+              width={35}
               className="w-5 h-5"
               src={CATEGORIES_ITEMS[p.course.category[0]]?.src || noImagePng} 
-              alt={p.course.category[0]} height={35} width={35} 
+              alt={p.course.category[0]} 
             />
           </div>
           <div className="font-bod text-md">{ CATEGORIES_ITEMS[p.course.category[0]]?.title}</div>

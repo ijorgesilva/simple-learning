@@ -5,7 +5,7 @@ import marketingPng from "@/public/cat-marketing.png";
 import musicPng from "@/public/cat-music-production.png";
 import photographyPng from "@/public/cat-photography.png";
 
-export const CATEGORIES_ITEMS: Partial<CategoryItem> = {
+export const CATEGORIES_ITEMS: CategoryItem = {
   big_data: {
     src: bigDataPng,
     alt: "Big Data Logo",
