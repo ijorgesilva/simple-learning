@@ -1,10 +1,11 @@
+import { CategoryItem } from "@/app/types/course-type";
 import bigDataPng from "@/public/cat-big-data.png";
 import cryptoPng from "@/public/cat-crypto.png";
 import marketingPng from "@/public/cat-marketing.png";
 import musicPng from "@/public/cat-music-production.png";
 import photographyPng from "@/public/cat-photography.png";
 
-export const CATEGORIES_ITEMS = {
+export const CATEGORIES_ITEMS: Partial<CategoryItem> = {
   big_data: {
     src: bigDataPng,
     alt: "Big Data Logo",

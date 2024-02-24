@@ -1,3 +1,5 @@
+import { StaticImageData } from "next/image"
+
 export interface CourseResponse {
   status: string
   totalResults: number
@@ -19,6 +21,27 @@ export interface Course {
   source_id: string
   source_priority: number
   country: string[]
-  category: string[]
+  category: CourseCategory[]
   language: string
+}
+
+// Categories
+export type CourseCategory = 
+  | 'courses'
+  | 'big_data'
+  | 'crypto'
+  | 'marketing'
+  | 'music_production'
+  | 'photography';
+
+export interface Category {
+  src: StaticImageData
+  alt: string
+  category: CourseCategory
+  title: string
+  description: string
+}
+
+export type CategoryItem = {
+  [K in CourseCategory]: Partial<Category>
 }
