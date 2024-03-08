@@ -1,7 +1,7 @@
 'use client';
 import { PropsWithChildren, useState } from "react";
 import dynamic from "next/dynamic";
-import CryptoNews from "@/app/components/CryptoNews/CryptoNews";
+import CryptoNews from "@/app/components/CryptoNews/CryptoNews.server";
 const ClockNoSSR = dynamic(()=>import("@/app/components/Clock/Clock"), {ssr: false});
 
 export default function CoursesTemplate({children} : PropsWithChildren){

@@ -2,8 +2,8 @@
 import CryptoApi from "@/app/api/crypto-api";
 import { useEffect, useState } from "react";
 
-export default function CryptoNews(p: {}){
-  const [crypto, setCrypto] = useState<CryptoItem>();
+export function CryptoNews(p: {initialData: CryptoItem}){
+  const [crypto, setCrypto] = useState<CryptoItem>(p.initialData);
 
   const fetchCrypto = async() => {
     const cryptoResp = await CryptoApi.fetchBitcoin();
