@@ -1,13 +1,15 @@
 import { Course, CourseCategory, CourseResponse } from '@/app/types/course-type'
+import { delayResponse } from '../lib/mock';
 
 export class CoursesApi {
   private static readonly BASE_URL = process.env.API_BASE_URL;
 
   // Fetch Latest Courses
-  static async fetchCourses(): Promise<Course[]>{
+  static async fetchCourses(mockDelay?: number): Promise<Course[]>{
     const courseResponse = await this.fetchCourseResponse();
-    return courseResponse.results;
+    return !mockDelay ? courseResponse.results : delayResponse(courseResponse.results, mockDelay);
   }
+
   private static async fetchCourseResponse(): Promise<CourseResponse> {
     const response = await fetch(`${this.BASE_URL}/courses`);
     return response.json();

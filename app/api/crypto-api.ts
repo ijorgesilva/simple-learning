@@ -1,8 +1,11 @@
+import { delayResponse } from "../lib/mock";
+
 export default class CryptoApi {
-  static async fetchBitcoin(): Promise<CryptoItem> {
+  static async fetchBitcoin(mockDelay?: number): Promise<CryptoItem> {
     const cryptoResp: CryptoResponse = await (
       await fetch(`${process.env.NEXT_PUBLIC_CRYPTO_BASE_URL}/assets/bitcoin`)
     ).json();
-    return cryptoResp.data;
+    
+    return !mockDelay ? cryptoResp.data : delayResponse(cryptoResp.data, mockDelay);
   }
 }

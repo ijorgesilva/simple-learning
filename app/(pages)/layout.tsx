@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Roboto } from 'next/font/google'
 import { Nav } from "@/app/components/Nav/Nav";
-import "./(pages)/globals.css";
+import "./globals.css";
 
 const roboto = Roboto({weight: ['400','300','100'], subsets: ['latin']});
 

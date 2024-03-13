@@ -1,16 +1,19 @@
-'use client';
-import { PropsWithChildren, useState } from "react";
+"use client";
+import { PropsWithChildren, Suspense, useState } from "react";
 import dynamic from "next/dynamic";
 import CryptoNews from "@/app/components/CryptoNews/CryptoNews.server";
-const ClockNoSSR = dynamic(()=>import("@/app/components/Clock/Clock"), {ssr: false});
+import Skeleton from "react-loading-skeleton";
+const ClockNoSSR = dynamic(() => import("@/app/components/Clock/Clock"), {
+  ssr: false,
+});
 
-export default function CoursesTemplate({children} : PropsWithChildren){
-  const [rating, setRating] = useState('');
+export default function CoursesTemplate({ children }: PropsWithChildren) {
+  const [rating, setRating] = useState("");
 
   const sendRating = () => {
-    alert('Rating submitted. Thanks for your feedback!');
-  }
-  return(
+    alert("Rating submitted. Thanks for your feedback!");
+  };
+  return (
     <>
       {children}
       <div className="fixed bottom-10 right-10 flex items-end gap-4">
@@ -18,8 +21,8 @@ export default function CoursesTemplate({children} : PropsWithChildren){
         <div>
           Rate this page
           <div className="flex space-x-2">
-            <input className="block border border-slate-200 w-10"/>
-            <button 
+            <input className="block border border-slate-200 w-10" />
+            <button
               className="text-xs bg-yellow-500 text-white rounded-lg pl-4 pr-4"
               onClick={sendRating}
             >
@@ -28,7 +31,12 @@ export default function CoursesTemplate({children} : PropsWithChildren){
           </div>
         </div>
       </div>
-      <CryptoNews />
+
+      <Suspense fallback={
+          <Skeleton height={30} width={100} count={1} />
+      }>
+        <CryptoNews />
+      </Suspense>
     </>
   );
 }
